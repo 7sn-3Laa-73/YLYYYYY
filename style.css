@@ -54,6 +54,8 @@ body {
   max-width: 100px;
   height: auto; /* Maintain aspect ratio */
   cursor: grab;
+  touch-action: none; /* تعطيل التمرير الافتراضي أثناء السحب */
+  position: relative; /* تمكين الوضع النسبي لاستخدام السحب */
 }
 
 button {
